@@ -1,0 +1,15 @@
+
+
+h1 {
+    text-align: center;
+}
+
+.description {
+    background: silver;
+    text-align: justify;
+}
+
+img {
+    border: 10px solid cornflowerblue;
+    width: 400px;
+}
