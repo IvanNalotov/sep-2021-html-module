@@ -1,0 +1,30 @@
+
+.xxx {
+    background: gray;
+    /*width: 1600px;*/
+    height: 900px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /*flex-direction: column-reverse;*/
+    /*flex-wrap: wrap;*/
+    /*column-gap: 20%;*/
+}
+
+.box {
+    flex-basis: 400px;
+    height: 100px;
+}
+
+.a {
+    background: silver;
+    flex-shrink: 1;
+
+}
+
+.b {
+    background: cornflowerblue;
+    flex-shrink: 2;
+
+}
+
