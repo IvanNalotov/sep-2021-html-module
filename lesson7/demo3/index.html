@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+
+        .wrap {
+            width: 900px;
+            height: 700px;
+            background: silver;
+            display: grid;
+            grid-template-columns: repeat(15, 1fr);
+            grid-template-rows: repeat(20, 1fr);
+
+        }
+
+        .menu {
+            background: #000;
+            grid-column: span 15;
+            grid-row: span 2;
+        }
+
+        .side {
+            background: coral;
+            grid-column: span 5;
+            grid-row: span 14;
+        }
+
+        .content {
+            background: #9f75d7;
+            grid-column: span 8;
+            grid-row: span 7;
+        }
+
+        .content-2 {
+            background: lightcoral;
+            grid-column: span 8;
+            grid-row: span 7;
+        }
+
+        .side2 {
+            background: red;
+            grid-column: 14/16;
+            grid-row: 3/17;
+
+
+        }
+
+        .footer {
+            background: #000;
+            grid-column: span 15;
+            grid-row: span 4;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrap">
+    <div class="menu"></div>
+    <div class="side"></div>
+    <div class="content"></div>
+    <div class="content-2"></div>
+    <div class="side2"></div>
+    <div class="footer"></div>
+
+</div>
+</body>
+</html>

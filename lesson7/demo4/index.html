@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <style>
+
+        .wrap {
+            width: 900px;
+            height: 600px;
+            background: silver;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-template-areas:
+                "m m m m m "
+                "side content content content content"
+                "side content content content content"
+                "side content content content content"
+                "footer footer footer footer footer"
+
+        ;
+        }
+
+        .menu {
+            background: #000;
+            grid-area: m;
+        }
+
+        .side {
+            background: red;
+            grid-area: side;
+        }
+
+        .content {
+            background: green;
+            grid-area: content;
+        }
+
+        .footer {
+            background: yellow;
+            grid-area: footer;
+        }
+
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div class="menu"></div>
+    <div class="side"></div>
+    <div class="content"></div>
+    <div class="footer"></div>
+
+
+</div>
+</body>
+</html>
